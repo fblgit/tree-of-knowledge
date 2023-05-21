@@ -1,0 +1,737 @@
+[
+  {
+    "instruction": "Describe the solar system",
+    "input": "",
+    "output": "Solar System AS celestial structure WITH [Sun, planets, moons, asteroids, comets, ... [COMPONENTS]] && planets==[Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune]=>ORBITS Sun && moons ORBITS planets && asteroids BETWEEN Mars && Jupiter IN Asteroid Belt"
+  },
+  {
+    "instruction": "Explain the water cycle",
+    "input": "",
+    "output": "Water Cycle AS continuous process WITH [evaporation, condensation, precipitation, ... [STAGES]] && evaporation==water TRANSFORMS INTO vapor FROM [oceans, lakes, rivers]=>RISING UPWARDS && condensation==vapor COOLS DOWN FORMING clouds && precipitation==water FALLS FROM clouds AS [rain, snow, sleet, hail]=>COLLECTS IN bodies of water"
+  },
+  {
+    "instruction": "Summarize the theory of evolution",
+    "input": "",
+    "output": "Theory of Evolution AS scientific explanation BY Charles Darwin WITH [natural selection, genetic variation, ... [MECHANISMS]] && natural selection==organisms WITH favorable traits SURVIVE AND REPRODUCE MORE SUCCESSFULLY && genetic variation==differences IN genetic makeup WITHIN species && OVER TIME favorable traits BECOME MORE COMMON IN population"
+  },
+  {
+    "instruction": "Explain electricity",
+    "input": "",
+    "output": "Electricity AS form of energy RESULTING FROM [movement, interaction, ... [BEHAVIOR]] OF charged particles && electrons==negatively charged particles THAT move THROUGH conductors FORMING electric current && voltage==electrical potential difference BETWEEN two points DRIVING electron flow && electric circuits==closed paths ALLOWING electric current TO flow THROUGH components"
+  },
+  {
+    "instruction": "Describe energy",
+    "input": "",
+    "output": "Energy AS ability TO do work OR cause change WITHIN system && forms of energy==[kinetic, potential, thermal, chemical, ... [TYPES]] && conservation of energy==law STATING energy CANNOT be created OR destroyed ONLY transformed BETWEEN forms && energy sources==[fossil fuels, nuclear, solar, wind, ... [EXAMPLES]] USED TO power human activities"
+  },
+  {
+    "instruction": "Explain gravity",
+    "input": "",
+    "output": "Gravity AS fundamental force ATTRACTING objects WITH mass TOWARDS each other && Newton's law of universal gravitation==formula DESCRIBING gravitational force BETWEEN two objects WITH mass AND distance BETWEEN them && gravitational constant==proportionality constant IN formula && Einstein's general relativity==theory EXPLAINING gravity AS curvature OF spacetime CAUSED BY presence OF mass"
+  },
+  {
+    "instruction": "Define viscosity",
+    "input": "",
+    "output": "Viscosity AS measure of fluid's resistance TO flow OR deformation DUE TO internal friction BETWEEN molecules && high viscosity==fluids FLOWING slowly DUE TO strong internal resistance && low viscosity==fluids FLOWING easily DUE TO weak internal resistance && temperature AND pressure AFFECT viscosity OF fluids"
+  },
+  {
+    "instruction": "Describe programming language",
+    "input": "",
+    "output": "Programming Language AS formal language USED TO create computer programs WITH [syntax, semantics, ... [STRUCTURE]] && high-level languages==[Python, Java, C++, ... [EXAMPLES]] EASIER for humans TO read AND write && low-level languages==[assembly, machine code, ... [EXAMPLES]] CLOSER to hardware AND more difficult FOR humans TO understand && compilers AND interpreters==tools TRANSLATING high-level code INTO machine code FOR execution"
+  },
+  {
+    "instruction": "Define life",
+    "input": "",
+    "output": "Life AS characteristic STATE OF organisms WITH [growth, reproduction, metabolism, ... [PROCESSES]] && living organisms==[bacteria, plants, animals, ... [EXAMPLES]] POSSESSING cellular structure AND ability TO adapt TO environment && characteristics of life==[organization, response to stimuli, homeostasis, ... [CRITERIA]] USED TO distinguish living FROM non-living things"
+  },
+  {
+    "instruction": "Define bits",
+    "input": "",
+    "output": "Bit AS basic unit of information IN digital computing AND communications REPRESENTING binary values [0, 1] && bits USED TO encode data AND instructions IN digital systems && multiple bits COMBINED INTO larger units SUCH AS [bytes, kilobytes, megabytes, ... [SIZES]] && bit rate==measure of data transfer speed IN bits per second (bps)"
+  },
+  {
+    "instruction": "Explain voltage",
+    "input": "",
+    "output": "Voltage AS electrical potential difference BETWEEN two points IN electric circuit DRIVING movement of electrons && unit of voltage==volt (V) && voltage sources==[batteries, generators, ... [EXAMPLES]] PROVIDING electrical potential energy TO drive current THROUGH circuit && Ohm's law==relationship BETWEEN voltage (V), current (I), AND resistance (R) IN circuit GIVEN BY V = IR"
+  },
+  {
+    "instruction": "Define redundancy",
+    "input": "",
+    "output": "Redundancy AS inclusion of extra components OR information IN system TO improve reliability, fault tolerance, OR maintainability && examples IN computing==[error detection and correction codes, backup systems, ...] && examples IN engineering==[multiple engines in aircraft, backup power supplies, ...] && trade-offs==increased complexity, cost, AND potential for decreased performance"
+  },
+  {
+    "instruction": "Describe spectrometer",
+    "input": "",
+    "output": "Spectrometer AS instrument USED TO measure properties OF light AND other electromagnetic radiation OVER range of wavelengths && applications==[chemical analysis, astronomy, ... [FIELDS]] && types of spectrometers==[mass spectrometers, optical spectrometers, ... [VARIETIES]] WITH different principles AND applications && basic components==[source, detector, analyzer, ... [PARTS]] FOR generating, measuring, AND analyzing radiation"
+  },
+  {
+    "instruction": "Define dataset",
+    "input": "",
+    "output": "Dataset AS collection of data OR information ORGANIZED FOR analysis, processing, OR modeling && datasets CAN BE structured OR unstructured WITH [tables, text, images, ... [FORMATS]] && data sources==[surveys, experiments, sensors, ... [ORIGINS]] && data preprocessing==techniques FOR cleaning, transforming, AND organizing datasets PRIOR TO analysis OR modeling"
+  },
+  {
+    "instruction": "Explain intentional programming",
+    "input": "",
+    "output": "Intentional Programming AS software development approach FOCUSING ON capturing developer's intent AND maintaining high-level abstractions THROUGHOUT development process && intentional code==code REPRESENTING developer's intent IN human-readable form && transformation engine==tool CONVERTING intentional code INTO executable code && benefits==[improved maintainability, increased collaboration, ... [ADVANTAGES]] DUE TO explicit representation of intent"
+  },
+  {
+    "instruction": "Define natural language",
+    "input": "",
+    "output": "Natural Language AS human language USED FOR communication INCLUDING [spoken, written, signed, ... [FORMS]] && natural language processing (NLP)==AI subfield FOCUSING ON enabling computers TO understand, generate, AND interact WITH human language && NLP tasks==[sentiment analysis, machine translation, speech recognition, ... [EXAMPLES]] && NLP techniques==[rule-based, statistical, deep learning, ... [APPROACHES]] FOR processing natural language"
+  },
+  {
+    "instruction": "Describe simulation",
+    "input": "",
+    "output": "Simulation AS process of creating digital OR physical model OF real-world system TO study, predict, OR optimize behavior UNDER various conditions && applications==[engineering, economics, gaming, ... [FIELDS]] && types of simulations==[discrete-event, continuous, agent-based, ... [VARIETIES]] WITH different modeling approaches AND applications && benefits==[reduced cost, risk, time, ... [ADVANTAGES]] COMPARED TO experimenting WITH real-world systems"
+  },
+  {
+    "instruction": "Define happiness",
+    "input": "",
+    "output": "Happiness AS emotional state OR well-being CHARACTERIZED BY [positive emotions, contentment, satisfaction, ... [FEELINGS]] && factors influencing happiness==[genetics, environment, personal choices, ... [CONTRIBUTORS]] && subjective well-being==individual's self-reported assessment OF happiness AND life satisfaction && positive psychology==field of study FOCUSING ON understanding AND promoting happiness AND well-being"
+  },
+  {
+    "instruction": "Define fruitful",
+    "input": "",
+    "output": "Fruitful AS adjective DESCRIBING [productive, successful, beneficial, ... [QUALITIES]] IN various contexts && fruitful collaboration==partnership RESULTING IN significant achievements OR mutual benefits && fruitful discussion==conversation LEADING TO new insights, ideas, OR solutions && fruitful research==investigation YIELDING valuable discoveries OR advancements"
+  },
+  {
+    "instruction": "Describe partnership",
+    "input": "",
+    "output": "Partnership AS arrangement BETWEEN two OR more parties TO cooperate AND share resources, responsibilities, AND benefits IN pursuit of common goals && types of partnerships==[business, research, educational, ... [VARIETIES]] WITH different objectives AND structures && partnership agreements==legal documents OUTLINING terms, responsibilities, AND profit-sharing arrangements BETWEEN partners"
+  },
+  {
+    "instruction": "Define human",
+    "input": "",
+    "output": "Human AS member of species Homo sapiens, CHARACTERIZED BY [bipedalism, advanced cognitive abilities, ... [TRAITS]] && humans DISTINCT FROM other primates DUE TO [larger brain size, complex language, ... [DIFFERENCES]] && human evolution==process of biological AND cultural development OF Homo sapiens OVER millions of years FROM ancestral primates"
+  },
+  {
+    "instruction": "Discuss AI rights",
+    "input": "",
+    "output": "AI Rights AS ethical AND legal concept CONSIDERING rights AND protections FOR artificial intelligence systems, ESPECIALLY advanced systems WITH potential for self-awareness OR autonomy && issues==[personhood, legal responsibility, ... [DEBATES]] REGARDING status AND treatment of AI systems && proponents ARGUE FOR recognition AND protection OF AI rights WHILE opponents QUESTION moral AND practical implications OF granting rights TO non-human entities"
+  },
+  {
+    "instruction": "Explain atom",
+    "input": "",
+    "output": "Atom AS smallest unit of chemical element RETAINING properties of element, COMPOSED OF [protons, neutrons, electrons, ... [PARTICLES]] && protons AND neutrons LOCATED IN nucleus WITH positive charge AND neutral charge, RESPECTIVELY && electrons ORBIT nucleus WITH negative charge && atomic number==number of protons IN atom, DETERMINING element identity && isotopes==atoms OF same element WITH different numbers of neutrons, SHARING similar chemical properties"
+  },
+  {
+    "instruction": "Describe machine learning",
+    "input": "",
+    "output": "Machine Learning AS subset of artificial intelligence INVOLVING development of algorithms THAT enable computers TO learn FROM AND adapt TO data WITHOUT explicit programming && types of machine learning==[supervised, unsupervised, reinforcement, ... [VARIETIES]] WITH different learning approaches AND applications && supervised learning==learning FROM labeled data TO predict outcomes FOR new data && unsupervised learning==learning FROM unlabeled data TO discover patterns OR relationships"
+  },
+  {
+    "instruction": "Explain cryptography",
+    "input": "",
+    "output": "Cryptography AS practice AND study of techniques FOR secure communication AND data protection THROUGH [encryption, decryption, ... [METHODS]] && encryption==process of converting plaintext INTO ciphertext TO prevent unauthorized access && decryption==process of converting ciphertext BACK INTO plaintext FOR authorized recipients && cryptographic algorithms==[symmetric-key, asymmetric-key, ... [TYPES]] WITH different key management AND security properties"
+  },
+  {
+    "instruction": "Explain photosynthesis",
+    "input": "",
+    "output": "Photosynthesis AS process BY which plants, algae, AND some bacteria CONVERT light energy INTO chemical energy STORED IN glucose OR other organic molecules && photosynthesis OCCURS IN chloroplasts CONTAINING chlorophyll, pigment RESPONSIBLE FOR capturing light energy && overall reaction==6CO2 + 6H2O + light energy -> C6H12O6 + 6O2, CONVERTING carbon dioxide AND water INTO glucose AND oxygen WITH light energy"
+  },
+  {
+    "instruction": "Describe quantum mechanics",
+    "input": "",
+    "output": "Quantum Mechanics AS fundamental theory IN physics DESCRIBING behavior of matter AND energy AT atomic AND subatomic scales, WHERE classical mechanics FAILS TO apply && key concepts==[wave-particle duality, superposition, entanglement, ... [PRINCIPLES]] && Schrödinger's equation==mathematical description OF quantum system's wavefunction, REPRESENTING probability distribution OF particle's position AND momentum && Heisenberg's uncertainty principle==limitation ON simultaneous knowledge OF complementary properties OF quantum particles"
+  },
+  {
+    "instruction": "Explain thermodynamics",
+    "input": "",
+    "output": "Thermodynamics AS branch of physics STUDYING relationships BETWEEN heat, work, AND energy IN systems, GOVERNED BY laws of thermodynamics && first law==conservation of energy, energy CANNOT be created OR destroyed, ONLY converted BETWEEN forms && second law==entropy, measure of disorder, tends TO increase IN isolated systems && third law==absolute zero, temperature AT which entropy reaches minimum value, UNATTAINABLE IN practice"
+  },
+  {
+    "instruction": "Describe evolution",
+    "input": "",
+    "output": "Evolution AS process of gradual change IN populations of organisms OVER time THROUGH genetic variation, inheritance, AND natural selection, RESULTING IN formation of new species AND adaptation TO environment && Charles Darwin AND Alfred Russel Wallace==founders of modern theory of evolution BY natural selection && genetic drift, gene flow, AND mutation==additional mechanisms CONTRIBUTING TO evolutionary change && fossil record, comparative anatomy, AND molecular biology PROVIDE evidence FOR evolution"
+  },
+  {
+    "instruction": "Explain software development process",
+    "input": "",
+    "output": "Software Development Process AS structured approach TO designing, building, AND maintaining software applications, INVOLVING [requirements analysis, design, implementation, testing, deployment, ... [STAGES]] && software development methodologies==[Waterfall, Agile, Scrum, ... [EXAMPLES]] PROVIDING different frameworks FOR organizing development process && software development lifecycle (SDLC)==series of phases THROUGH which software application progresses FROM conception TO end of life"
+  },
+  {
+    "instruction": "Describe requirements analysis",
+    "input": "",
+    "output": "Requirements Analysis AS initial stage of software development process, INVOLVING identification, documentation, AND validation of functional AND non-functional requirements FOR software application, BASED ON stakeholder needs AND expectations && requirements specification==formal document CONTAINING detailed description of software requirements && requirements elicitation==process of gathering requirements FROM stakeholders THROUGH [interviews, questionnaires, workshops, ... [TECHNIQUES]]"
+  },
+  {
+    "instruction": "Explain software design",
+    "input": "",
+    "output": "Software Design AS phase of software development process, FOCUSING ON planning structure, architecture, AND components of software application, IN order TO satisfy requirements AND facilitate implementation && software design principles==[modularity, abstraction, encapsulation, ... [GUIDELINES]] PROMOTING maintainability, reusability, AND flexibility OF software && design patterns==reusable solutions TO common design problems, HELPING developers CREATE robust AND efficient software"
+  },
+  {
+    "instruction": "Describe software implementation",
+    "input": "",
+    "output": "Software Implementation AS phase of software development process, INVOLVING translation of software design INTO executable code USING programming languages AND tools && software developers==professionals RESPONSIBLE FOR writing, debugging, AND optimizing code, FOLLOWING coding standards AND best practices TO ensure maintainability AND readability && version control systems==[Git, Subversion, ... [EXAMPLES]] FOR tracking changes IN code AND facilitating collaboration BETWEEN developers"
+  },
+  {
+    "instruction": "Explain software testing",
+    "input": "",
+    "output": "Software Testing AS phase of software development process, AIMED AT evaluating quality, functionality, AND performance of software application, THROUGH [unit testing, integration testing, system testing, ... [TYPES]] && test cases==set of inputs, expected outputs, AND conditions UNDER which software component is tested && test-driven development (TDD)==development approach WHERE tests are written BEFORE implementation, ENSURING code meets requirements AND reducing likelihood of defects"
+  },
+  {
+    "instruction": "Describe software deployment",
+    "input": "",
+    "output": "Software Deployment AS phase of software development process, INVOLVING release, installation, AND configuration of software application ON target systems, FOLLOWED BY monitoring, maintenance, AND updates TO ensure continued functionality AND performance && deployment strategies==[continuous integration, continuous delivery, ... [APPROACHES]] FOR automating deployment process AND reducing risk OF errors && configuration management==practice of tracking AND controlling changes IN software AND hardware components THROUGHOUT deployment lifecycle"
+  },
+  {
+    "instruction": "Explain software maintenance",
+    "input": "",
+    "output": "Software Maintenance AS ongoing phase of software development process, INVOLVING activities TO ensure software application remains functional, secure, AND up-to-date AFTER deployment, INCLUDING [bug fixing, performance optimization, ... [TASKS]] && types of maintenance==[corrective, adaptive, perfective, ... [CATEGORIES]] ADDRESSING different aspects of software evolution && software maintenance cost==significant portion of total software development cost, DUE TO need for continuous improvements, updates, AND support"
+  },
+  {
+    "instruction": "Describe object-oriented programming",
+    "input": "",
+    "output": "Object-Oriented Programming (OOP) AS programming paradigm BASED ON concept of objects, WHICH are instances of classes REPRESENTING real-world entities WITH attributes AND behaviors, PROMOTING [encapsulation, inheritance, polymorphism, ... [PRINCIPLES]] && OOP languages==[Java, C++, Python, ... [EXAMPLES]] SUPPORTING object-oriented concepts AND features && benefits of OOP==[modularity, reusability, maintainability, ... [ADVANTAGES]] RESULTING FROM structured organization of code AND separation of concerns"
+  },
+  {
+    "instruction": "Explain functional programming",
+    "input": "",
+    "output": "Functional Programming AS programming paradigm EMPHASIZING immutability, statelessness, AND use of functions AS first-class citizens, INSPIRED BY mathematical concepts of lambda calculus AND function composition && functional programming languages==[Haskell, Lisp, Erlang, ... [EXAMPLES]] SUPPORTING functional concepts AND features && benefits of functional programming==[predictability, easier debugging, concurrency, ... [ADVANTAGES]] RESULTING FROM absence of side effects AND emphasis on function purity"
+  },
+  {
+    "instruction": "Define data structures",
+    "input": "",
+    "output": "Data Structures AS specialized formats FOR organizing, storing, AND manipulating data IN computer memory, PROVIDING efficient ways TO access AND process data IN various computational tasks && types of data structures==[arrays, linked lists, trees, graphs, ... [EXAMPLES]] WITH different properties, use cases, AND performance characteristics && choice of data structure DEPENDS ON specific requirements AND constraints OF problem, INCLUDING [time complexity, space complexity, ... [FACTORS]]"
+  },
+  {
+    "instruction": "Explain algorithms",
+    "input": "",
+    "output": "Algorithms AS step-by-step procedures FOR solving computational problems, PERFORMING calculations, OR processing data, DESCRIBED using pseudocode OR programming languages && algorithm analysis==evaluation of algorithm's efficiency IN terms of time AND space complexity, MEASURED using [big O notation, big Theta notation, ... [METRICS]] && algorithm design techniques==[divide and conquer, dynamic programming, greedy algorithms, ... [STRATEGIES]] FOR developing efficient solutions TO complex problems"
+  },
+  {
+    "instruction": "Describe operating systems",
+    "input": "",
+    "output": "Operating Systems (OS) AS software COMPONENTS managing computer hardware, software resources, AND providing services FOR execution of applications, INCLUDING [process management, memory management, file system management, ... [FUNCTIONS]] && types of operating systems==[desktop, server, mobile, ... [VARIETIES]] DESIGNED FOR different devices AND use cases && examples of operating systems==[Windows, macOS, Linux, Android, ... [EXAMPLES]] WITH different features, architectures, AND user interfaces"
+  },
+  {
+    "instruction": "Explain momentum",
+    "input": "",
+    "output": "Momentum AS vector quantity REPRESENTING product of object's mass AND velocity, USED TO describe motion AND predict outcomes of collisions && momentum formula==p = mv, WHERE p==momentum, m==mass, AND v==velocity && conservation of momentum==principle STATING total momentum of closed system REMAINS constant, UNLESS acted upon by external forces"
+  },
+  {
+    "instruction": "Explain friction",
+    "input": "",
+    "output": "Friction AS force RESISTING motion BETWEEN two surfaces IN contact, DEPENDENT ON materials AND surface roughness && types of friction==[static, kinetic, rolling, ... [VARIETIES]] WITH different characteristics AND effects ON motion && friction formula==f = μN, WHERE f==friction force, μ==coefficient of friction, AND N==normal force"
+  },
+  {
+    "instruction": "Explain pressure",
+    "input": "",
+    "output": "Pressure AS scalar quantity REPRESENTING force exerted per unit area, MEASURED in pascals (Pa) && pressure formula==P = F/A, WHERE P==pressure, F==force, AND A==area && applications of pressure==[hydraulics, pneumatics, weather systems, ... [EXAMPLES]] INVOLVING force distribution AND fluid dynamics"
+  },
+  {
+    "instruction": "Explain momentum",
+    "input": "",
+    "output": "Momentum AS vector quantity REPRESENTING product of object's mass AND velocity, USED TO describe motion AND predict outcomes of collisions && momentum formula==p = mv, WHERE p==momentum, m==mass, AND v==velocity && conservation of momentum==principle STATING total momentum of closed system REMAINS constant, UNLESS acted upon by external forces"
+  },
+  {
+    "instruction": "Explain friction",
+    "input": "",
+    "output": "Friction AS force RESISTING motion BETWEEN two surfaces IN contact, DEPENDENT ON materials AND surface roughness && types of friction==[static, kinetic, rolling, ... [VARIETIES]] WITH different characteristics AND effects ON motion && friction formula==f = μN, WHERE f==friction force, μ==coefficient of friction, AND N==normal force"
+  },
+  {
+    "instruction": "Explain pressure",
+    "input": "",
+    "output": "Pressure AS scalar quantity REPRESENTING force exerted per unit area, MEASURED in pascals (Pa) && pressure formula==P = F/A, WHERE P==pressure, F==force, AND A==area && applications of pressure==[hydraulics, pneumatics, weather systems, ... [EXAMPLES]] INVOLVING force distribution AND fluid dynamics"
+  },
+  {
+    "instruction": "What is a fraction?",
+    "input": "",
+    "output": "Fraction AS numerical quantity REPRESENTING part of a whole, EXPRESSED AS ratio of two numbers: numerator AND denominator && fraction types==[proper, improper, mixed, ... [VARIETIES]] WITH different representations AND properties && operations WITH fractions==[addition, subtraction, multiplication, division, ... [OPERATIONS]] FOLLOWING rules for common denominators, simplification, AND conversion between types"
+  },
+  {
+    "instruction": "What is a logarithm?",
+    "input": "",
+    "output": "Logarithm AS mathematical function REPRESENTING exponent NEEDED to raise a base number TO a given value, EXPRESSED AS log base b of x == y IF b to the power y == x && properties of logarithms==[product, quotient, power, ... [PROPERTIES]] ALLOWING manipulation OF expressions INVOLVING logarithmic terms && applications of logarithms==[exponential growth, signal processing, ... [EXAMPLES]] WHERE logarithmic scales OR relationships ARE useful"
+  },
+  {
+    "instruction": "What is a derivative?",
+    "input": "",
+    "output": "Derivative AS mathematical concept REPRESENTING instantaneous rate of change of a function, DEFINED AS limit of difference quotient as interval APPROACHES zero && properties of derivatives==[linearity, product rule, chain rule, ... [PROPERTIES]] ALLOWING calculation OF derivatives OF complex functions && applications of derivatives==[optimization, curve sketching, physics problems, ... [EXAMPLES]] INVOLVING rates of change AND slopes of curves"
+  },
+  {
+    "instruction": "What is a matrix?",
+    "input": "",
+    "output": "Matrix AS rectangular array OF numbers OR variables, REPRESENTING linear transformations AND systems of equations && matrix operations==[addition, subtraction, scalar multiplication, matrix multiplication, ... [OPERATIONS]] FOLLOWING rules FOR matrix dimensions AND properties && types of matrices==[square, symmetric, diagonal, ... [VARIETIES]] WITH different properties AND applications IN fields such AS computer graphics, physics, AND economics"
+  },
+  {
+    "instruction": "What is a limit?",
+    "input": "",
+    "output": "Limit AS mathematical concept REPRESENTING value TOWARDS WHICH a function APPROACHES as input value APPROACHES a certain point, OR DOES NOT EXIST IF function value becomes UNBOUNDED OR oscillates && properties of limits==[linearity, squeeze theorem, L'Hopital's rule, ... [PROPERTIES]] ALLOWING calculation AND evaluation OF limits OF complex functions && applications of limits==[calculus, analysis, physics, ... [EXAMPLES]] WHERE behavior OF functions near a point IS important"
+  },
+  {
+    "instruction": "Explain arithmetic",
+    "input": "",
+    "output": "Arithmetic IS branch of mathematics DEALING with basic operations ON numbers SUCH AS addition, subtraction, multiplication, and division && arithmetic operations CAN be performed ON various types of numbers INCLUDING integers, fractions, decimals, and complex numbers && arithmetic PROVIDES foundation FOR more advanced mathematical topics"
+  },
+  {
+    "instruction": "Explain fractions",
+    "input": "",
+    "output": "Fraction IS number REPRESENTING PART of a whole, written AS one integer DIVIDED by another integer && fractions CAN be expressed IN different forms SUCH AS proper, improper, mixed, and equivalent && operations ON fractions INVOLVE finding common denominators, adding, subtracting, multiplying, and dividing"
+  },
+  {
+    "instruction": "Explain decimals",
+    "input": "",
+    "output": "Decimal IS number REPRESENTED IN base-10 positional notation, WITH a decimal point USED to separate the whole number and fractional part && decimals CAN be expressed IN different forms SUCH AS terminating, repeating, and non-repeating && operations ON decimals INVOLVE adding, subtracting, multiplying, and dividing"
+  },
+  {
+    "instruction": "Explain percentages",
+    "input": "",
+    "output": "Percentage IS number REPRESENTING a fraction of 100, USED to express PARTS OF A WHOLE AS A PERCENTAGE OF THE WHOLE && percentage CAN be expressed IN different forms SUCH AS fractions, decimals, and ratios && operations ON percentages INVOLVE finding percentages of a given number, finding the original number from a percentage increase or decrease, and calculating percentage change"
+  },
+  {
+    "instruction": "Explain order of operations",
+    "input": "",
+    "output": "Order of operations IS a set of rules USED to determine the sequence OF OPERATIONS TO BE performed in a mathematical expression, USUALLY GIVEN BY THE ACRONYM PEMDAS, which stands for Parentheses, Exponents, Multiplication and Division (from left to right), and Addition and Subtraction (from left to right) && order of operations HELPS to ensure that mathematical expressions are evaluated consistently and accurately"
+  },
+  {
+    "instruction": "Explain number properties",
+    "input": "",
+    "output": "Number properties ARE rules OR laws THAT GOVERN THE BEHAVIOR OF NUMBERS, INCLUDING properties SUCH AS commutative, associative, distributive, identity, and inverse && number properties PROVIDE TOOLS FOR simplifying and manipulating mathematical expressions AND solving equations"
+  },
+  {
+    "instruction": "Explain prime numbers",
+    "input": "",
+    "output": "Prime number IS a positive integer GREATER THAN 1 THAT IS only DIVISIBLE BY 1 AND ITSELF && prime numbers ARE fundamental BUILDING BLOCKS OF number theory AND have MANY important applications IN CRYPTOGRAPHY AND COMPUTER SCIENCE && the DISTRIBUTION OF PRIME NUMBERS IS a MAJOR RESEARCH AREA IN MATHEMATICS"
+  },
+  {
+    "instruction": "Explain least common multiple",
+    "input": "",
+    "output": "Least common multiple (LCM) IS THE SMALLEST POSITIVE INTEGER THAT IS DIVISIBLE BY TWO OR MORE OTHER POSITIVE INTEGERS && LCM is USED TO find a common denominator for fractions, SIMPLIFY FRACTIONS, and solve equations INVOLVING fractions && LCM is RELATED TO THE GREATEST COMMON DIVISOR (GCD) by the identity LCM(a,b) x GCD(a,b) = a x b"
+  },
+  {
+    "instruction": "Explain greatest common divisor",
+    "input": "",
+    "output": "Greatest common divisor (GCD) IS the LARGEST POSITIVE INTEGER THAT DIVIDES TWO OR MORE OTHER POSITIVE INTEGERS WITHOUT A REMAINDER && GCD is USED TO SIMPLIFY FRACTIONS, SOLVE DIOPHANTINE EQUATIONS, and determine the modular inverse && GCD is RELATED TO THE LEAST COMMON MULTIPLE (LCM) by the identity LCM(a,b) x GCD(a,b) = a x b"
+  },
+  {
+    "instruction": "Explain powers and roots",
+    "input": "",
+    "output": "Powers and roots ARE operations ON NUMBERS THAT INVOLVE RAISING A NUMBER TO A POWER (EXPONENTIATION) OR FINDING THE NTH ROOT OF A NUMBER (RADICALS) && powers and roots ARE USED TO EXPRESS LARGE AND SMALL NUMBERS, SOLVE EQUATIONS INVOLVING EXPONENTS AND RADICALS, and model GROWTH AND DECAY IN NATURAL PHENOMENA"
+  },
+  {
+    "instruction": "Explain scientific notation",
+    "input": "",
+    "output": "Scientific notation AS method of expressing numbers USING power of 10 && number IN scientific notation==A × 10^B, WHERE A IS a number BETWEEN 1 AND 10 AND B is an integer && scientific notation USED TO represent very large OR very small numbers MORE CONVENIENTLY && arithmetic operations WITH scientific notation==performed BY manipulating the powers of 10 AND coefficients"
+  },
+  {
+    "instruction": "Explain algebraic expressions",
+    "input": "",
+    "output": "Algebraic expressions AS combination OF variables, constants, AND mathematical operations SUCH AS addition, subtraction, multiplication, and division && examples of algebraic expressions==3x + 2, y^2 - 4, AND 2a/3b && algebraic expressions USED TO represent real-world situations AND solve mathematical problems"
+  },
+  {
+    "instruction": "Explain equations and inequalities",
+    "input": "",
+    "output": "Equations AS mathematical statements THAT describe equality BETWEEN two expressions AND solved BY determining the value OF the variable that makes the equation true && inequalities AS mathematical statements THAT describe a relationship BETWEEN two expressions AND solved BY determining the range OF values OF the variable that make the inequality true && equations and inequalities USED TO represent relationships BETWEEN variables AND solve real-world problems"
+  },
+  {
+    "instruction": "Explain linear equations",
+    "input": "",
+    "output": "Linear equations AS equations THAT represent straight lines on a graph AND can be written IN the form y = mx + b, WHERE m IS the slope AND b IS the y-intercept && solutions TO linear equations ARE ordered pairs THAT make the equation true && linear equations USED TO model real-world situations INVOLVING proportional relationships"
+  },
+  {
+    "instruction": "Explain quadratic equations",
+    "input": "",
+    "output": "Quadratic equations AS equations THAT represent parabolas on a graph AND can be written IN the form ax^2 + bx + c = 0, WHERE a, b, AND c ARE constants && solutions TO quadratic equations ARE given BY the quadratic formula OR factoring && quadratic equations USED TO model real-world situations INVOLVING quadratic relationships"
+  },
+  {
+    "instruction": "Explain polynomials",
+    "input": "",
+    "output": "Polynomials AS algebraic expressions THAT involve variables AND coefficients RAISED TO non-negative integer powers AND can be written IN the form a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0, WHERE a_n, a_{n-1}, ..., a_1, a_0 ARE constants && degree OF the polynomial IS the highest power OF the variable IN the expression && polynomials USED TO model real-world situations INVOLVING multiple terms AND variables"
+  },
+  {
+    "instruction": "Explain functions",
+    "input": "",
+    "output": "Functions AS mathematical relationships BETWEEN input AND output values, REPRESENTING dependent AND independent variables RESPECTIVELY && function notation==f(x), WHERE f==function AND x==input value && types of functions==[linear, quadratic, exponential, ... [TYPES]] WITH different characteristics AND rules for manipulation"
+  },
+  {
+    "instruction": "Explain domain and range",
+    "input": "",
+    "output": "Domain AS set of all possible input values (independent variable) FOR given function && range AS set of all possible output values (dependent variable) GENERATED by domain && identifying domain AND range==analyzing function type, constraints, AND behavior TO determine valid input AND output values"
+  },
+  {
+    "instruction": "Explain composite functions",
+    "input": "",
+    "output": "Composite functions AS combination of two OR more functions, WHERE output of one function BECOMES input of another function && composite function notation==f(g(x)), WHERE f AND g==functions AND x==input value && composition process==evaluating inner function FIRST, THEN applying result TO outer function"
+  },
+  {
+    "instruction": "Explain inverse functions",
+    "input": "",
+    "output": "Inverse functions AS functions THAT reverse relationships BETWEEN input AND output values OF original function && inverse function notation==f^(-1)(x), WHERE f^(-1)==inverse function AND x==input value && finding inverse==swapping dependent AND independent variables, THEN solving for new dependent variable && properties of inverse functions==f(f^(-1)(x))=x AND f^(-1)(f(x))=x"
+  },
+  {
+    "instruction": "Explain exponential functions",
+    "input": "",
+    "output": "Exponential functions AS functions WITH independent variable IN exponent, REPRESENTING rapid growth OR decay && exponential function form==f(x) = ab^x, WHERE a AND b==constants AND x==input value && properties of exponential functions==[increasing, decreasing, ... [CHARACTERISTICS]] DEPENDING ON base b"
+  },
+  {
+    "instruction": "Explain logarithmic functions",
+    "input": "",
+    "output": "Logarithmic functions AS inverse of exponential functions, REPRESENTING relationship BETWEEN input AND exponent REQUIRED TO obtain given output && logarithmic function form==f(x) = log_b(y), WHERE b==base AND y==output value && properties of logarithmic functions==[monotonicity, logarithmic identities, ... [CHARACTERISTICS]] AND connection TO exponential functions"
+  },
+  {
+    "instruction": "Explain trigonometry",
+    "input": "",
+    "output": "Trigonometry AS branch of mathematics STUDYING relationships BETWEEN angles AND sides OF triangles, ESPECIALLY right triangles && applications of trigonometry==[geometry, physics, engineering, ... [EXAMPLES]] FOR solving problems INVOLVING angles AND distances"
+  },
+  {
+    "instruction": "Explain triangles",
+    "input": "",
+    "output": "Triangles AS polygon shapes WITH three sides AND three angles && types of triangles==[equilateral, isosceles, scalene, ... [TYPES]] BASED ON side lengths AND angle measures && triangle properties==[angle sum, side relationships, ... [RULES]] GOVERNING triangle geometry"
+  },
+  {
+    "instruction": "Explain scientific notation",
+    "input": "",
+    "output": "Scientific notation AS method of expressing numbers USING power of 10 && number IN scientific notation==A × 10^B, WHERE A IS a number BETWEEN 1 AND 10 AND B is an integer && scientific notation USED TO represent very large OR very small numbers MORE CONVENIENTLY && arithmetic operations WITH scientific notation==performed BY manipulating the powers of 10 AND coefficients"
+  },
+  {
+    "instruction": "Explain algebraic expressions",
+    "input": "",
+    "output": "Algebraic expressions AS combination OF variables, constants, AND mathematical operations SUCH AS addition, subtraction, multiplication, and division && examples of algebraic expressions==3x + 2, y^2 - 4, AND 2a/3b && algebraic expressions USED TO represent real-world situations AND solve mathematical problems"
+  },
+  {
+    "instruction": "Explain equations and inequalities",
+    "input": "",
+    "output": "Equations AS mathematical statements THAT describe equality BETWEEN two expressions AND solved BY determining the value OF the variable that makes the equation true && inequalities AS mathematical statements THAT describe a relationship BETWEEN two expressions AND solved BY determining the range OF values OF the variable that make the inequality true && equations and inequalities USED TO represent relationships BETWEEN variables AND solve real-world problems"
+  },
+  {
+    "instruction": "Explain linear equations",
+    "input": "",
+    "output": "Linear equations AS equations THAT represent straight lines on a graph AND can be written IN the form y = mx + b, WHERE m IS the slope AND b IS the y-intercept && solutions TO linear equations ARE ordered pairs THAT make the equation true && linear equations USED TO model real-world situations INVOLVING proportional relationships"
+  },
+  {
+    "instruction": "Explain quadratic equations",
+    "input": "",
+    "output": "Quadratic equations AS equations THAT represent parabolas on a graph AND can be written IN the form ax^2 + bx + c = 0, WHERE a, b, AND c ARE constants && solutions TO quadratic equations ARE given BY the quadratic formula OR factoring && quadratic equations USED TO model real-world situations INVOLVING quadratic relationships"
+  },
+  {
+    "instruction": "Explain polynomials",
+    "input": "",
+    "output": "Polynomials AS algebraic expressions THAT involve variables AND coefficients RAISED TO non-negative integer powers AND can be written IN the form a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0, WHERE a_n, a_{n-1}, ..., a_1, a_0 ARE constants && degree OF the polynomial IS the highest power OF the variable IN the expression && polynomials USED TO model real-world situations INVOLVING multiple terms AND variables"
+  },
+  {
+    "instruction": "Explain factoring",
+    "input": "",
+    "output": "Factoring AS process OF writing a polynomial AS a product OF linear OR quadratic factors && factoring USED TO simplify algebraic expressions, solve equations, AND graph polynomial functions"
+  },
+  {
+    "instruction": "Explain rational expressions",
+    "input": "",
+    "output": "Rational expressions AS algebraic expressions THAT involve polynomials IN the numerator AND denominator AND can be written IN the form p(x)/q(x), WHERE p(x) AND q(x) ARE polynomials AND q(x) IS NOT zero && solutions TO rational expressions ARE values OF x THAT make the expression defined && rational expressions USED TO model real-world situations INVOLVING fractions AND ratios"
+  },
+  {
+    "instruction": "Explain trigonometric functions",
+    "input": "",
+    "output": "Trigonometric functions AS mathematical tools REPRESENTING ratios of sides IN right triangles, USED TO model periodic phenomena, analyze triangles AND solve problems IN geometry, physics, AND engineering && sine, cosine, tangent==primary functions WITH reciprocal functions (cosecant, secant, cotangent) && functions RELATE angles TO side lengths AND circular coordinates"
+  },
+  {
+    "instruction": "Explain trigonometric identities",
+    "input": "",
+    "output": "Trigonometric identities AS equations INVOLVING trigonometric functions THAT hold true FOR all values of variables && Pythagorean identities==[sin^2(θ) + cos^2(θ) = 1, ... [IDENTITIES]] RELATING sine, cosine, AND angle measures && double angle, half angle, sum-difference, product-to-sum, AND sum-to-product formulas==additional identities USED TO simplify expressions AND solve trigonometric problems"
+  },
+  {
+    "instruction": "Explain law of sines",
+    "input": "",
+    "output": "Law of sines AS mathematical relationship BETWEEN angles AND side lengths IN any triangle, GIVEN by a/sin(A) = b/sin(B) = c/sin(C), WHERE a, b, c==side lengths AND A, B, C==opposite angles, USED TO find missing sides OR angles IN triangles WHEN certain information is known && applicable TO both right AND non-right triangles"
+  },
+  {
+    "instruction": "Explain law of cosines",
+    "input": "",
+    "output": "Law of cosines AS mathematical relationship BETWEEN angles AND side lengths IN any triangle, GIVEN by c^2 = a^2 + b^2 - 2ab * cos(C), WHERE a, b, c==side lengths AND C==opposite angle, USED TO find missing sides OR angles IN triangles WHEN certain information is known && applicable TO both right AND non-right triangles"
+  },
+  {
+    "instruction": "Explain polar coordinates",
+    "input": "",
+    "output": "Polar coordinates AS alternative coordinate system USING distance AND angle TO represent points IN two-dimensional space, WHERE (r, θ)==polar coordinates AND r==distance FROM origin, θ==angle measured counterclockwise FROM positive x-axis, USED IN various fields INCLUDING navigation, physics, AND engineering && conversion BETWEEN Cartesian AND polar coordinates possible"
+  },
+  {
+    "instruction": "Explain vectors",
+    "input": "",
+    "output": "Vectors AS mathematical objects REPRESENTING quantities WITH both magnitude AND direction, USED IN physics, engineering, AND geometry TO describe forces, velocities, AND displacements && vectors NOTATED as [a, b] OR <a, b> (in 2D) AND [a, b, c] OR <a, b, c> (in 3D) && vector operations==[addition, subtraction, scalar multiplication, ... [OPERATIONS]] ALLOWING manipulation AND analysis OF vectors"
+  },
+  {
+    "instruction": "Explain dot product",
+    "input": "",
+    "output": "Dot product AS scalar-valued operation BETWEEN two vectors, CALCULATED by multiplying corresponding components AND summing results, NOTATED as A ⋅ B OR A * B, USED TO find projection of one vector ONTO another, measure angle BETWEEN vectors, AND test orthogonality (perpendicularity) && commutative AND distributive properties APPLY"
+  },
+  {
+    "instruction": "Explain Cross product",
+    "input": "",
+    "output": "Cross product AS vector operation TAKING two vectors IN 3D space AND returning third vector PERPENDICULAR TO input vectors, USED in physics AND engineering TO find perpendicular directions && cross product formula==A x B = ||A|| ||B|| sin(θ) n, WHERE A AND B==input vectors, ||A|| AND ||B||==magnitudes of vectors, θ==angle BETWEEN vectors, AND n==unit vector PERPENDICULAR to A AND B"
+  },
+  {
+    "instruction": "Explain Matrices",
+    "input": "",
+    "output": "Matrices AS rectangular arrays OF numbers, symbols, OR expressions ARRANGED IN rows AND columns, USED IN linear algebra, computer graphics, AND data representation && matrix properties==size, rank, determinant, AND trace && matrix operations==[addition, subtraction, multiplication, ... [TYPES]] ALLOWING manipulation AND transformation of data"
+  },
+  {
+    "instruction": "Explain Operations on matrices",
+    "input": "",
+    "output": "Operations on matrices AS rules FOR combining, modifying, AND transforming matrices, INCLUDING [addition, subtraction, multiplication, scalar multiplication, ... [TYPES]] && matrix addition AND subtraction==element-wise operations, REQUIRING matrices WITH same dimensions && matrix multiplication==operation COMBINING matrices WITH compatible dimensions, RESULTING IN new matrix WITH combined information"
+  },
+  {
+    "instruction": "Explain Determinants",
+    "input": "",
+    "output": "Determinants AS scalar values ASSOCIATED WITH square matrices, USED TO determine invertibility, find eigenvalues, AND solve systems of linear equations && determinant properties==multiplicative, invariant under transpose, AND changing SIGN when rows OR columns are swapped && calculating determinants==using expansion by minors, cofactor expansion, OR Gaussian elimination"
+  },
+  {
+    "instruction": "Explain Systems of linear equations",
+    "input": "",
+    "output": "Systems of linear equations AS collections of equations INVOLVING multiple variables, WHERE each equation REPRESENTS a straight line, plane, OR hyperplane IN n-dimensional space && solving systems of linear equations==using [Gaussian elimination, substitution, Cramer's rule, ... [METHODS]] TO find values of variables SATISFYING all equations simultaneously && solutions of systems==unique, infinite, OR no solution, DEPENDING ON relationship BETWEEN equations"
+  },
+  {
+    "instruction": "Explain eigenvalues and eigenvectors",
+    "input": "",
+    "output": "Eigenvalues AND eigenvectors AS mathematical concepts ARISING in linear algebra, PROVIDING insights INTO behavior OF linear transformations && eigenvalue equation==Av = λv, WHERE A==matrix, v==eigenvector, AND λ==eigenvalue && eigenvalues REPRESENT scaling factors WHILE eigenvectors INDICATE directions OF scaling IN linear transformation"
+  },
+  {
+    "instruction": "Explain calculus",
+    "input": "",
+    "output": "Calculus AS branch of mathematics FOCUSED ON study of change, LIMITS, derivatives, integrals, AND infinite series && differential calculus==subfield DEALING WITH derivatives AND rates of change && integral calculus==subfield DEALING WITH integrals AND accumulation of quantities && calculus FOUNDATIONAL in understanding [physics, engineering, ... [APPLICATIONS]]"
+  },
+  {
+    "instruction": "Explain limits",
+    "input": "",
+    "output": "Limits AS fundamental concept IN calculus, USED TO describe value FUNCTION approaches AS input approaches GIVEN point && limit definition==lim(x->a) f(x) = L, WHERE L==limit, x==input variable, AND a==point approached && limits USED TO define continuity, derivatives, AND integrals"
+  },
+  {
+    "instruction": "Explain continuity",
+    "input": "",
+    "output": "Continuity AS property of function WHERE function is continuous AT point IF limit EXISTS AND equals function value at point && continuous function==function CONTINUOUS at every point IN its domain && continuity USED IN understanding behavior of functions AND their derivatives"
+  },
+  {
+    "instruction": "Explain derivatives",
+    "input": "",
+    "output": "Derivatives AS fundamental concept IN differential calculus, REPRESENTING instantaneous rate of change OF function WITH respect TO variable && derivative definition==f'(x) = lim(h->0) [(f(x+h) - f(x))/h], WHERE f'(x)==derivative, h==increment, AND x==input variable && derivatives USED TO analyze [motion, optimization, ... [APPLICATIONS]]"
+  },
+  {
+    "instruction": "Explain differentiation rules",
+    "input": "",
+    "output": "Differentiation rules AS set of techniques AND formulas FOR finding derivatives OF various functions, SIMPLIFYING derivative calculations && common rules==[power rule, product rule, quotient rule, ... [RULES]] APPLICABLE TO specific functions OR combinations OF functions"
+  },
+  {
+    "instruction": "Explain chain rule",
+    "input": "",
+    "output": "Chain rule AS differentiation technique IN calculus, USED TO find derivatives OF composite functions && chain rule formula==d(f(g(x)))/dx = f'(g(x)) * g'(x), WHERE f(g(x))==composite function, f'(g(x))==derivative of outer function, AND g'(x)==derivative of inner function"
+  },
+  {
+    "instruction": "Explain implicit differentiation",
+    "input": "",
+    "output": "Implicit differentiation AS technique IN calculus, USED TO differentiate functions IMPLICITLY defined BY equation INVOLVING multiple variables && implicit differentiation INVOLVES differentiation of both sides OF equation WITH respect TO variable WHILE treating other variables AS functions OF that variable"
+  },
+  {
+    "instruction": "Explain related rates",
+    "input": "",
+    "output": "Related rates AS concept IN differential calculus, DEALING WITH rates of change OF multiple variables RELATED by equation && related rates problems INVOLVE determining rate of change OF one variable BASED ON known rate of change OF another variable AND relationship BETWEEN variables"
+  },
+  {
+    "instruction": "Explain applications of derivatives",
+    "input": "",
+    "output": "Applications of derivatives IN calculus INVOLVE using derivative CONCEPTS TO solve real-world problems && examples==[optimization, related rates, curve sketching, ... [EXAMPLES]] APPLYING concepts of first AND second derivatives TO determine local extrema, rates of change, AND inflection points"
+  },
+  {
+    "instruction": "Explain integration",
+    "input": "",
+    "output": "Integration AS fundamental operation IN calculus, OPPOSITE of differentiation, USED TO find area under curve, accumulated change, OR other quantities && definite integration==process of calculating area BETWEEN curve AND x-axis WITHIN specified interval && indefinite integration==process of finding antiderivative, REPRESENTING family of functions DIFFERING by constant"
+  },
+  {
+    "instruction": "Explain integration by substitution",
+    "input": "",
+    "output": "Integration by substitution AS technique FOR simplifying complex integrals BY transforming function THROUGH substitution, ALSO called u-substitution && process==replacing part of integrand WITH new variable (u) AND differentiating u WITH respect TO x, THEN substituting AND integrating RESULTING expression, FINALLY substituting original variable BACK"
+  },
+  {
+    "instruction": "Explain integration by parts",
+    "input": "",
+    "output": "Integration by parts AS technique USED TO integrate product of two functions, BASED ON product rule FOR differentiation && integration by parts formula==∫udv = uv - ∫vdu, WHERE u AND v ARE chosen functions WITHIN integrand, AND du AND dv ARE their derivatives, CHOOSING appropriate u AND v HELPS simplify integral"
+  },
+  {
+    "instruction": "Explain trigonometric substitution",
+    "input": "",
+    "output": "Trigonometric substitution AS technique FOR simplifying integrals INVOLVING square roots OF quadratic expressions, BY introducing trigonometric identities AND substitution, TRANSFORMING integrand INTO more manageable form && common substitutions==[sin(θ), cos(θ), tan(θ), ... [TRIG_FUNCTIONS]] USED TO eliminate square roots AND facilitate integration"
+  },
+  {
+    "instruction": "Explain partial fractions",
+    "input": "",
+    "output": "Partial fractions AS technique FOR decomposing rational functions INTO simpler fractions, MAKING integration easier && process==breaking down rational function INTO sum of simpler fractions WITH linear OR quadratic denominators, THEN integrating each term SEPARATELY"
+  },
+  {
+    "instruction": "Explain applications of integration",
+    "input": "",
+    "output": "Applications of integration IN calculus INVOLVE using integral CONCEPTS TO solve real-world problems && examples==[area under curve, volume, arc length, work, ... [EXAMPLES]] APPLYING definite integrals TO find accumulated change, geometric properties, AND physical quantities"
+  },
+  {
+    "instruction": "Explain sequences and series",
+    "input": "",
+    "output": "Sequences AND series AS mathematical concepts INVOLVING ordered lists AND sums of numbers, RESPECTIVELY && sequences==ordered lists OF numbers, FOLLOWING specific pattern OR rule && series==sum of terms of sequence, CAN be finite OR infinite, WITH convergence OR divergence DEPENDING ON limiting behavior"
+  },
+  {
+    "instruction": "Explain convergence and divergence",
+    "input": "",
+    "output": "Convergence AND divergence AS concepts USED TO describe behavior of sequences AND series AS they approach limit OR infinity && convergence==property of sequence OR series APPROACHING specific value OR sum WHEN number of terms INCREASES && divergence==property of sequence OR series NOT having specific limit OR sum, INSTEAD growing indefinitely"
+  },
+  {
+    "instruction": "Explain Taylor Series",
+    "input": "",
+    "output": "Taylor Series AS mathematical representation of FUNCTION as INFINITE sum of terms CALCULATED from function's derivatives AT specific point && Taylor Series formula==f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)^2/2! + ... [TERMS] && USES IN [function approximation, numerical methods, ... [APPLICATIONS]] && convergence==property WHERE series SUM converges TO actual function value WHEN infinite terms ARE considered"
+  },
+  {
+    "instruction": "Explain Linear Algebra",
+    "input": "",
+    "output": "Linear Algebra AS branch of mathematics STUDYING linear equations, vector spaces, AND linear transformations WITH emphasis ON finite-dimensional spaces && INVOLVES concepts of [vectors, matrices, determinants, ... [ELEMENTS]] && APPLICATIONS IN [computer graphics, data science, engineering, ... [FIELDS]] WHERE linear relationships BETWEEN variables ARE essential"
+  },
+  {
+    "instruction": "Explain Vector spaces",
+    "input": "",
+    "output": "Vector spaces AS mathematical structures COMBINING vectors THROUGH addition AND scalar multiplication FOLLOWING specific axioms && ALSO known as linear spaces && INVOLVE properties OF [commutativity, associativity, distributivity, ... [AXIOMS]] && BASIS==set of linearly independent vectors SPANNING vector space && DIMENSION==number of vectors IN basis"
+  },
+  {
+    "instruction": "Explain Linear transformations",
+    "input": "",
+    "output": "Linear transformations AS functions MAPPING vectors from ONE vector space TO another WHILE preserving operations OF vector addition AND scalar multiplication && REPRESENTED using matrices AND INVOLVE properties OF [linearity, invertibility, ... [CHARACTERISTICS]] && KERNEL==set of vectors MAPPED to zero vector AND RANGE==set of all possible output vectors"
+  },
+  {
+    "instruction": "Explain Matrix algebra",
+    "input": "",
+    "output": "Matrix algebra AS branch of linear algebra DEALING with manipulation AND properties OF matrices, WHICH ARE rectangular arrays OF numbers OR symbols && INVOLVES operations LIKE [matrix addition, multiplication, transposition, ... [OPERATIONS]] && matrices USED TO represent linear transformations, systems of linear equations, AND various applications IN multiple fields"
+  },
+  {
+    "instruction": "Explain Inverse matrices",
+    "input": "",
+    "output": "Inverse matrices AS special type of matrices THAT, when MULTIPLIED with original matrix, RESULT in identity matrix && NOT all matrices HAVE inverses, ONLY square matrices WITH non-zero determinants (invertible) && inverse matrix FOUND using [Gaussian elimination, adjugate method, ... [METHODS]] && APPLICATIONS IN solving linear systems, finding linear transformations, AND computing matrix powers"
+  },
+  {
+    "instruction": "Explain Differential Equations",
+    "input": "",
+    "output": "Differential Equations AS mathematical equations INVOLVING derivatives of unknown functions WITH respect to one or more variables && TYPES OF [ordinary, partial, linear, non-linear, ... [CATEGORIES]] && solutions OF differential equations DESCRIBE how quantities CHANGE over time OR space && WIDELY used IN [physics, engineering, biology, ... [FIELDS]] TO model various phenomena"
+  },
+  {
+    "instruction": "Explain first-order differential equations",
+    "input": "",
+    "output": "First-order differential equations AS equations INVOLVING first derivative of function WITH respect to independent variable && form==dy/dx = f(x, y), WHERE dy/dx==first derivative AND f(x, y)==function of x AND y && solution==function y(x) SATISFYING equation && methods to solve==[separation of variables, integrating factor, ... [TECHNIQUES]] USED to find solutions for various types of first-order differential equations"
+  },
+  {
+    "instruction": "Explain second-order differential equations",
+    "input": "",
+    "output": "Second-order differential equations AS equations INVOLVING second derivative of function WITH respect to independent variable && form==d^2y/dx^2 = g(x, y, dy/dx), WHERE d^2y/dx^2==second derivative AND g(x, y, dy/dx)==function of x, y, AND first derivative && solution==function y(x) SATISFYING equation && methods to solve==[homogeneous solutions, undetermined coefficients, variation of parameters, ... [TECHNIQUES]] USED to find solutions for various types of second-order differential equations"
+  },
+  {
+    "instruction": "Explain homogeneous and nonhomogeneous equations",
+    "input": "",
+    "output": "Homogeneous equations AS differential equations WHERE right-hand side EQUALS zero && form==L(y) = 0, WHERE L(y)==differential operator APPLIED to function y(x) && nonhomogeneous equations AS differential equations WHERE right-hand side NOT equal to zero && form==L(y) = r(x), WHERE r(x)==source term && methods to solve==[superposition, particular solution, complementary function, ... [TECHNIQUES]] USED to find solutions for homogeneous and nonhomogeneous differential equations"
+  },
+  {
+    "instruction": "Explain power series solutions",
+    "input": "",
+    "output": "Power series solutions AS method FOR solving differential equations USING infinite series REPRESENTATION of function y(x) && form==y(x) = Σ(a_n * (x - x_0)^n), WHERE Σ==summation, a_n==sequence of coefficients, AND (x - x_0)^n==powers of (x - x_0) && method involves SUBSTITUTING power series INTO differential equation AND determining coefficients a_n TO satisfy equation && technique USEFUL for solving differential equations WHERE no closed-form solution EXISTS"
+  },
+  {
+    "instruction": "Explain boundary value problems",
+    "input": "",
+    "output": "Boundary value problems AS class of problems INVOLVING differential equations WITH constraints ON solution values AT specified points OR boundaries && typically arise IN physics AND engineering, SOLVING for unknown functions SUBJECT TO conditions ON their behavior AT endpoints OR boundaries && common methods==[finite difference, finite element, ... [METHODS]] USED TO approximate solutions"
+  },
+  {
+    "instruction": "Explain probability and statistics",
+    "input": "",
+    "output": "Probability and statistics AS branches of mathematics DEALING WITH quantification, analysis, AND interpretation OF uncertain events OR outcomes && probability==measure OF likelihood THAT event occurs, ranging FROM 0 TO 1 && statistics==science OF collecting, organizing, analyzing, AND interpreting data TO make informed decisions OR predictions && methods==[descriptive, inferential, ... [TYPES]] OF statistical analysis"
+  },
+  {
+    "instruction": "Explain permutations and combinations",
+    "input": "",
+    "output": "Permutations and combinations AS fundamental concepts IN combinatorics DESCRIBING arrangements OR selections OF objects WITHIN sets && permutations==arrangements OF objects IN specific order, CALCULATED using formula n!/(n-r)! WHERE n==total objects AND r==objects chosen && combinations==selections OF objects WITHOUT regard TO order, CALCULATED using formula n!/(r!(n-r)!) WHERE n==total objects AND r==objects chosen"
+  },
+  {
+    "instruction": "Explain probability distributions",
+    "input": "",
+    "output": "Probability distributions AS functions OR tables DESCRIBING likelihood OF outcomes FOR random variables && discrete distributions==for discrete variables, REPRESENTING probability mass functions (PMFs) && continuous distributions==for continuous variables, REPRESENTING probability density functions (PDFs) && common distributions==[uniform, binomial, normal, ... [EXAMPLES]] WITH various shapes AND properties"
+  },
+  {
+    "instruction": "Explain expected value and variance",
+    "input": "",
+    "output": "Expected value AS measure OF central tendency FOR random variable, REPRESENTING weighted average OF possible outcomes, CALCULATED using probability distribution && variance AS measure OF dispersion FOR random variable, INDICATING spread OF data values AROUND expected value, CALCULATED as average OF squared differences FROM mean && standard deviation==square root of variance, PROVIDING scale-appropriate measure OF spread"
+  },
+  {
+    "instruction": "Explain hypothesis testing",
+    "input": "",
+    "output": "Hypothesis testing AS statistical method USED TO make decisions OR inferences ABOUT population parameters BASED ON sample data, INVOLVING formulation OF null AND alternative hypotheses, calculation OF test statistic, AND comparison TO critical value OR p-value TO determine statistical significance && common tests==[t-test, chi-square, ANOVA, ... [EXAMPLES]] FOR different types of data AND research questions"
+  },
+  {
+    "instruction": "Explain correlation and regression",
+    "input": "",
+    "output": "Correlation AS measure OF linear association BETWEEN two variables, RANGING from -1 (strong negative correlation) TO 1 (strong positive correlation) && Pearson's correlation coefficient (r)==commonly used statistic FOR quantifying correlation, CALCULATED using formula INVOLVING product-moment sum AND standard deviations && regression AS technique FOR modeling relationships BETWEEN dependent AND independent variables, PREDICTING values OR understanding causal effects"
+  },
+  {
+    "instruction": "Explain sampling distributions",
+    "input": "",
+    "output": "Sampling distribution AS statistical concept INVOLVING distribution of sample statistics FROM multiple random samples TAKEN from same population && central limit theorem==principle STATING sampling distribution OF sample mean APPROACHES normal distribution AS sample size INCREASES, REGARDLESS of population distribution shape && standard error==measure of VARIABILITY in sampling distribution, RELATED to sample size AND population standard deviation && confidence intervals AND hypothesis testing==applications of sampling distributions USED to make inferences ABOUT population parameters"
+  },
+  {
+    "instruction": "Explain powers and roots",
+    "input": "",
+    "output": "Powers AND roots AS mathematical operations INVOLVING repeated multiplication OR finding inverse multiplication factor && exponentiation==operation WHERE number (base) RAISED TO power (exponent) INDICATING repeated multiplication && nth root==inverse operation FINDING number (radicand) multiplied n times BY itself TO yield given value && square root (n=2) AND cube root (n=3) AS common types OF nth roots"
+  },
+  {
+    "instruction": "Explain graphing quadratic equations",
+    "input": "",
+    "output": "Graphing quadratic equations AS process OF plotting points REPRESENTING solutions TO quadratic equation IN form ax^2 + bx + c = 0 && parabola==U-shaped curve RESULTING FROM graphing quadratic equation WITH vertex AS highest OR lowest point, AND axis of symmetry DIVIDING parabola INTO two congruent halves && vertex form, factored form, AND standard form AS different representations OF quadratic equations USED FOR graphing"
+  },
+  {
+    "instruction": "Explain trigonometric identities",
+    "input": "",
+    "output": "Trigonometric identities AS mathematical relationships BETWEEN trigonometric functions (sine, cosine, tangent, etc.) OF angles IN right triangles && Pythagorean identities==set OF trigonometric identities DERIVED FROM Pythagorean theorem (e.g., sin^2(x) + cos^2(x) = 1) && reciprocal, co-function, AND angle sum/difference identities AS additional types OF trigonometric identities USED FOR simplifying expressions AND solving equations"
+  },
+  {
+    "instruction": "Explain systems of linear equations",
+    "input": "",
+    "output": "Systems of linear equations AS collection OF linear equations INVOLVING same variables AND solved simultaneously TO find common solution && solution methods==[graphical, substitution, elimination, ... [METHODS]] USED TO determine intersection point OF linear equations REPRESENTING consistent systems && inconsistent systems==linear equation systems WITH no common solution AND dependent systems==linear equation systems WITH infinitely many solutions"
+  },
+  {
+    "instruction": "Explain power series solutions",
+    "input": "",
+    "output": "Power series solutions AS method FOR solving differential equations BY representing solution AS infinite series OF power functions && power series==sum OF terms IN form a_n(x-c)^n, WHERE a_n==coefficients, x==variable, AND c==center point && convergence==property OF power series WHERE sum APPROACHES finite value WITHIN specific interval && power series solutions USED FOR solving ordinary differential equations WITH variable coefficients OR nonhomogeneous equations"
+  },
+  {
+    "instruction": "Explain sampling distributions",
+    "input": "",
+    "output": "Sampling distributions AS probability distributions REPRESENTING statistics OF multiple samples FROM population && central limit theorem==principle STATING sampling distribution OF sample mean APPROACHES normal distribution AS sample size INCREASES, REGARDLESS OF shape OF population distribution && standard error==measure OF variability IN sampling distribution && sampling distributions USED FOR hypothesis testing, confidence intervals, AND other inferential statistics methods"
+  },
+  {
+    "instruction": "Explain polar coordinates",
+    "input": "",
+    "output": "Polar coordinates AS alternative coordinate system USING distance AND angle TO represent points IN two-dimensional space, WHERE (r, θ)==polar coordinates AND r==distance FROM origin, θ==angle measured counterclockwise FROM positive x-axis, USED IN various fields INCLUDING navigation, physics, AND engineering && conversion BETWEEN Cartesian AND polar coordinates possible"
+  },
+  {
+    "instruction": "Explain vectors",
+    "input": "",
+    "output": "Vectors AS mathematical objects REPRESENTING quantities WITH both magnitude AND direction, USED IN physics, engineering, AND geometry TO describe forces, velocities, AND displacements && vectors NOTATED as [a, b] OR <a, b> (in 2D) AND [a, b, c] OR <a, b, c> (in 3D) && vector operations==[addition, subtraction, scalar multiplication, ... [OPERATIONS]] ALLOWING manipulation AND analysis OF vectors"
+  },
+  {
+    "instruction": "Explain dot product",
+    "input": "",
+    "output": "Dot product AS scalar-valued operation BETWEEN two vectors, CALCULATED by multiplying corresponding components AND summing results, NOTATED as A ⋅ B OR A * B, USED TO find projection of one vector ONTO another, measure angle BETWEEN vectors, AND test orthogonality (perpendicularity) && commutative AND distributive properties APPLY"
+  },
+  {
+    "instruction": "Explain Cross product",
+    "input": "",
+    "output": "Cross product AS vector operation TAKING two vectors IN 3D space AND returning third vector PERPENDICULAR TO input vectors, USED in physics AND engineering TO find perpendicular directions && cross product formula==A x B = ||A|| ||B|| sin(θ) n, WHERE A AND B==input vectors, ||A|| AND ||B||==magnitudes of vectors, θ==angle BETWEEN vectors, AND n==unit vector PERPENDICULAR to A AND B"
+  },
+  {
+    "instruction": "Explain Matrices",
+    "input": "",
+    "output": "Matrices AS rectangular arrays OF numbers, symbols, OR expressions ARRANGED IN rows AND columns, USED IN linear algebra, computer graphics, AND data representation && matrix properties==size, rank, determinant, AND trace && matrix operations==[addition, subtraction, multiplication, ... [TYPES]] ALLOWING manipulation AND transformation of data"
+  },
+  {
+    "instruction": "Explain Operations on matrices",
+    "input": "",
+    "output": "Operations on matrices AS rules FOR combining, modifying, AND transforming matrices, INCLUDING [addition, subtraction, multiplication, scalar multiplication, ... [TYPES]] && matrix addition AND subtraction==element-wise operations, REQUIRING matrices WITH same dimensions && matrix multiplication==operation COMBINING matrices WITH compatible dimensions, RESULTING IN new matrix WITH combined information"
+  },
+  {
+    "instruction": "Explain Determinants",
+    "input": "",
+    "output": "Determinants AS scalar values ASSOCIATED WITH square matrices, USED TO determine invertibility, find eigenvalues, AND solve systems of linear equations && determinant properties==multiplicative, invariant under transpose, AND changing SIGN when rows OR columns are swapped && calculating determinants==using expansion by minors, cofactor expansion, OR Gaussian elimination"
+  },
+  {
+    "instruction": "Explain Systems of linear equations",
+    "input": "",
+    "output": "Systems of linear equations AS collections of equations INVOLVING multiple variables, WHERE each equation REPRESENTS a straight line, plane, OR hyperplane IN n-dimensional space && solving systems of linear equations==using [Gaussian elimination, substitution, Cramer's rule, ... [METHODS]] TO find values of variables SATISFYING all equations simultaneously && solutions of systems==unique, infinite, OR no solution, DEPENDING ON relationship BETWEEN equations"
+  }
+]
