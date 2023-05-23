@@ -8,6 +8,8 @@ Can these two be put together?
 
 I am not an expert on this, but I tried to make some experiments for the last few months. Maybe you can put it to a more strong test?
 
+**The file data-foundation.json is the file used to fine-tune a model to being able to extract more terms**
+
 Here are some examples in different disciplines:
 
 ```
