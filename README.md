@@ -150,8 +150,8 @@ Please cite this repository if you use our code.
 
 ```
 @misc{tree-of-knowledge,
-  author = {Xavier M},
-  title = {Tree of Knowledge: ToK aka Tree of Knowledge dataset for Large Language Models LLM,
+  author = {Xavier Marcelo},
+  title = {Tree of Knowledge: ToK aka Tree of Knowledge dataset for Large Language Models LLM},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
