@@ -1,12 +1,28 @@
-# tree-of-knowledge-llm
-ToK aka Tree of Knowledge for Large Language Models LLM. It's a novel dataset that inspires knowledge symbolic correlation in simple input and output prompts.
+# tree-of-knowledge 19.05.2023
+ToK aka Tree of Knowledge for Large Language Models LLM. It's a novel dataset that inspires knowledge symbolic correlation in simple input and output prompts. It can be used to efficiently drive Tree-of-Thoughts, Chain-of-Knowledge, and similar approaches.
+## chain-of-knowledge 27.05.2023
+...
 
 Can these two be put together?
+* Tree-of-Thoughts https://arxiv.org/pdf/2305.10601.pdf
+* SYMBOL TUNING IMPROVES IN-CONTEXT LEARNING https://arxiv.org/pdf/2305.08298v1.pdf
 
-* https://arxiv.org/pdf/2305.10601.pdf
-* https://arxiv.org/pdf/2305.08298v1.pdf
+One of the answers can be:
+* Chain of Knowledge https://arxiv.org/pdf/2305.13269.pdf
 
-I am not an expert on this, but I tried to make some experiments for the last few months. Maybe you can put it to a more strong test?
+*But it can be improved, efficiently using TOK as language of exchange between the steps.*
+
+I am not an expert on this, and I do not have a laboratory or a gpu/tpu compute fleet, but I tried to make some experiments for the last few months and the results are surprising in many aspects.
+**Maybe you can put it to a more strong test or scenario?**
+*Please if this novel idea inspired you, cite the repo :)*
+
+Some ideas that sounds plausible:
+- A model trained with a majority of high quality TOK & Natural Language datasets can be small and strong in reasoning.
+- A model trained with a mixture of high quality TOK & Natural Language datasets ca be fine-tuned further with new information
+- A model trained with mostly TOK can be chained to another LLM to summarize the current context as a compacted memory
+- A model trained with mostly TOK can be chained to another LLM to filter nunances by translating NL to TOK and viceversa
+- A model with a Head purely based in TOK can drive the relationship of the context
+- yours?
 
 **The file data-foundation.json is the file used to fine-tune a model to being able to extract more terms**
 
@@ -16,6 +32,9 @@ The set experimentially can be used with multiple purposes:
 * Fine Tuning a model with newer data
 * Create Granular Domain Knowledge Sets
 * Improve training performance
+* Model Head to drive TOK based context
+* Chain Knowledge
+* Trees of Relationship based on Symbolic Knowledge
 
 Here are some examples in different disciplines from the original set:
 
@@ -95,6 +114,7 @@ What it tries to accomplish:
 - 2023-05-21 - Added the first 3000 dataset items under `data/` folder. They will be marked with the date of the dataset version.
 - 2023-05-22 - Added a new dataset that combines more exemplars together with CoNaLa dataset. The result is a model that can have conversations, follow instructions, produce TOK statements, and generate decent code as well.
 - 2023-05-23 - Testing dataset combinations
+- 2023-05-27 - Some testings proves LiMA effect, more is not better. At this point, cleaning or refining some of the notorious Datasets is highly relevant for a mixture. Combinations: CoT, SuperCoT, CoNaLa, AlpacaCode, GSM8k on 13B and 30B. Results are diverse and will be released at some point when are cleaned.
 
 `For now the data files will be named with the date, and it will hold the whole dataset for now. In the future, once is cleaned and validated, it will be consolidated, deduplicated, and split into smaller files.`
 
@@ -102,14 +122,16 @@ What it tries to accomplish:
 * The dataset is not yet complete, it is a work in progress and looking for collaborators.
 * The dataset is been tested at small scale: 100 examples were enough to fine tune a LLaMA 30Bmodel on a RTX40490 w/LoRA in a few minutes.
 * The dataset named `foundation` data is the original prompts used to create the extraction process.
+* The dataset structure will be fixed in field, but may be subject of changes within the input and instruction.
 
 # Next Steps
-* Keep generating more datafor the set. Phase 1 is 1 keyword. --> ONGOING
+* Keep generating more datafor the set. Phase 1 is 1 keyword. --> PAUSED `reformulating how the ideal dataset syntax will be`
 * llama-30b-4bit on a combined AutoCoT 100%+COT (Complete) Shuffle 30% + TOK 100%
 * Get a smaller model, updated corpus and extract valuable knowledge from it.
 * Load the new updated data (2023) and FineTune an older (2021) and validate update process. 
 * Generate more data for the set. Phase 2 is 2 keywords
-
+* Isolate `TOK` output style with a special character.
+* Add `LEAF` `TREE` `EXPAND` and `CONTEXT` flavours --> EXPERIMENTING
 
 ## Experiment Notes
 * It would be ideal to combine this with other datasets. Ideally if the model can understand that the shape of this set is knowledge and not conversation then it would allow incremental efficient learning.
@@ -136,4 +158,3 @@ Please cite this repository if you use our code.
   howpublished = {\url{https://github.com/fblgit/tree-of-knowledge}},
 }
 ```
-
