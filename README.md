@@ -1,7 +1,7 @@
 # tree-of-knowledge 19.05.2023
 ToK aka Tree of Knowledge for Large Language Models LLM. It's a novel dataset that inspires knowledge symbolic correlation in simple input and output prompts. It can be used to efficiently drive Tree-of-Thoughts, Chain-of-Knowledge, and similar approaches.
 ## chain-of-knowledge 27.05.2023
-...
+## chain-of-thoughts 28.05.2023
 
 Can these two be put together?
 * Tree-of-Thoughts https://arxiv.org/pdf/2305.10601.pdf
