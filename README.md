@@ -16,7 +16,7 @@ One of the answers can be:
 And a champion:
 * PRODIGY: Enabling In-context Learning Over Graphs https://arxiv.org/pdf/2305.12600.pdf
 
-PRODIGY seems a much better implementation, how how symbols (in this case of graphs) can produce a chain by natural training and not a dozen calls. Excellent, in fact it implements the many of the ideas below described in the past in a very elegant manner. For the posterity:
+PRODIGY seems a much better implementation, how symbols (in this case of graphs) can produce a chain by natural training and not a dozen calls. Excellent, in fact it implements the many of the ideas below described in the past in a very elegant manner. For the posterity:
 
 Some ideas that sounds plausible:
 - A model trained with a majority of high quality TOK & Natural Language datasets can be small and strong in reasoning.
